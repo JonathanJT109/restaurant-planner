@@ -1,8 +1,10 @@
 import pandas as pd
 import requests
-import visuals
 import urllib.parse
 
+# TODO: Analysis
+# TODO: Documentation
+# TODO: README
 
 def read_api_key_file(path="./key.env"):
     api_key_file = open(path, "r")
