@@ -6,6 +6,7 @@ import urllib.parse
 # TODO: Documentation
 # TODO: README
 
+
 def read_api_key_file(path="./key.env"):
     api_key_file = open(path, "r")
     API_KEY = api_key_file.read()
